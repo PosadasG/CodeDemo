@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="92439aca-1e56-45c8-a7ae-ea90d0d2bb75" name="POSADASG@POSADASG2 2022-11-01 14:19:53" runUser="CORP\POSADASG" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2022-11-01T14:19:53.1685905-04:00" queuing="2022-11-01T14:19:53.1685905-04:00" start="2022-11-01T14:19:49.1268117-04:00" finish="2022-11-01T14:19:53.1986973-04:00" />
+  <TestSettings name="default" id="9fe6cb8c-11bc-45b0-8794-24c48cc135ff">
+    <Deployment runDeploymentRoot="POSADASG_POSADASG2_2022-11-01_14_19_53" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="43672bfb-0031-4b6f-babc-ce0a974d5327" testId="bd4dc4e8-bc38-df77-73da-03ca3fa7aedb" testName="TestMethod1" computerName="POSADASG2" duration="00:00:00.0000017" startTime="2022-11-01T14:19:52.9080064-04:00" endTime="2022-11-01T14:19:52.9080081-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="43672bfb-0031-4b6f-babc-ce0a974d5327" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="c:\users\posadasg\documents\projects\codedemo\src\x64\debug\unittestcodedemo.dll" id="bd4dc4e8-bc38-df77-73da-03ca3fa7aedb">
+      <Execution id="43672bfb-0031-4b6f-babc-ce0a974d5327" />
+      <TestMethod codeBase="C:\Users\POSADASG\Documents\Projects\CodeDemo\src\x64\Debug\UnitTestCodeDemo.dll" adapterTypeName="executor://cppunittestexecutor/v1" className="UnitTestCodeDemo.UnitTestCodeDemo" name="UnitTestCodeDemo::UnitTestCodeDemo::TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="bd4dc4e8-bc38-df77-73da-03ca3fa7aedb" executionId="43672bfb-0031-4b6f-babc-ce0a974d5327" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <CollectorDataEntries>
+      <Collector agentName="POSADASG2" uri="datacollector://microsoft/CodeCoverage/2.0" collectorDisplayName="Code Coverage">
+        <UriAttachments>
+          <UriAttachment>
+            <A href="POSADASG2\POSADASG_POSADASG2_2022-11-01.14_19_50.coverage"></A>
+          </UriAttachment>
+        </UriAttachments>
+      </Collector>
+    </CollectorDataEntries>
+  </ResultSummary>
+</TestRun>

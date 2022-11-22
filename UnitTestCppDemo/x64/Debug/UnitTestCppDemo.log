@@ -1,0 +1,5 @@
+﻿  pch.cpp
+  UnitTestCppDemo.cpp
+C:\Users\POSADASG\Documents\Projects\CodeDemo\UnitTestCppDemo\UnitTestCppDemo.cpp(73,22): warning C4101: 'exc': unreferenced local variable
+     Creating library C:\Users\POSADASG\Documents\Projects\CodeDemo\src\x64\Debug\UnitTestCppDemo.lib and object C:\Users\POSADASG\Documents\Projects\CodeDemo\src\x64\Debug\UnitTestCppDemo.exp
+  UnitTestCppDemo.vcxproj -> C:\Users\POSADASG\Documents\Projects\CodeDemo\src\x64\Debug\UnitTestCppDemo.dll
